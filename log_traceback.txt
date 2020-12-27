@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "tracebacks.py", line 10, in <module>
+    spam()
+  File "tracebacks.py", line 4, in spam
+    bacon()
+  File "tracebacks.py", line 7, in bacon
+    raise Exception('This is the error message.')
+Exception: This is the error message.
